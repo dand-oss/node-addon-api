@@ -14,6 +14,8 @@ set(libname node-addon-api)
 install(
     FILES
     napi.h
+    napi-inl.h
+    napi-inl.deprecated.h
     src/node_api.h
     src/node_api_types.h
     DESTINATION include/${libname}
